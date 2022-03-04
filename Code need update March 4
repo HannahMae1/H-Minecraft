@@ -1,0 +1,13 @@
+let myPosition = positions.groundPosition (world(0, 0, 0));
+player.say(myPosition);
+player.say(positions.add(myPosition, world (1, 1, 10)));
+
+let cubeSize = 5;
+let width = 5;
+let heigh = 6;
+let length = 3;
+ 
+player.onChat("buildBlock", function() {
+player.say("Start PLacing Stone");
+        for (let y =1; y<=height; y++){
+            for (let z =1)
