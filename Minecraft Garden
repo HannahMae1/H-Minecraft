@@ -1,0 +1,37 @@
+player.onChat("run", function () {
+agent.teleportToPlayer()
+	agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+        agent.move(LEFT, 1)
+        agent.place(FORWARD)
+    }
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(BACK, 1)
+        agent.place(FORWARD)
+     }
+
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+        agent.move(RIGHT, 1)
+        agent.place(FORWARD)
+    }
+   agent.turn(TurnDirection.Left)
+    
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+        agent.move(RIGHT, 1)
+        agent.place(FORWARD)
+    }
+   
+})
