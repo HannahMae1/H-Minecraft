@@ -1,0 +1,266 @@
+player.onChat("run", function () {
+agent.teleportToPlayer()
+	agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+        agent.move(LEFT, 1)
+        agent.place(FORWARD)
+    }
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(BACK, 1)
+        agent.place(FORWARD)
+     }
+
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 20; i++) {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+        agent.move(RIGHT, 1)
+        agent.place(FORWARD)
+    }
+
+    player.say("Caillou")
+    agent.turn(TurnDirection.Left)
+    agent.move(BACK, 1)
+    agent.setItem (COBBLESTONE, 64, 1)
+agent.setSlot(1)
+    for (let i = 0; i < 18; i++) {
+        agent.move(BACK, 1)
+        agent.move(RIGHT, 1)
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+     
+    }
+agent.move(RIGHT, 3) 
+agent.move(UP, 1)
+agent.turn(TurnDirection.Left)
+agent.move(BACK, 1)
+
+for (let i = 0; i < 20; i++) {
+    agent.setItem (OAK_FENCE, 64, 1)
+    agent.move(RIGHT, 1)
+    agent.place(FORWARD)
+
+}
+agent.move(RIGHT, 1)
+agent.turn(TurnDirection.Left)
+agent.turn(TurnDirection.Left)
+agent.move(BACK, 1)
+for (let i = 0; i < 20; i++) {
+     agent.setItem (OAK_FENCE, 64, 1)
+    agent.move(BACK, 1)
+    agent.place(FORWARD)
+}
+agent.turn(TurnDirection.Left)
+agent.move(BACK, 1)
+agent.setItem (OAK_FENCE, 64, 1)
+agent.place(FORWARD)
+for (let i = 0; i < 20; i++) {
+    agent.setItem (OAK_FENCE, 64, 1)
+    agent.move(BACK, 1)
+    agent.place(FORWARD)
+}
+for (let i = 0; i < 17; i++) {
+    agent.setItem (OAK_FENCE, 64, 1)
+    agent.move(RIGHT, 1)
+    agent.place(FORWARD)
+}
+
+agent.move(DOWN, 1)
+agent.move(RIGHT, 2)
+
+for (let i = 0; i < 20; i++) {
+agent.move(FORWARD, 1)
+agent.till(FORWARD)
+}
+agent.turn(TurnDirection.Left)
+agent.turn(TurnDirection.Left)
+agent.turn(TurnDirection.Left)
+agent.move(BACK, 2)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for(let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+agent.move(FORWARD, 1)
+agent.move(BACK, 1)
+for (let i = 0; i < 9; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+agent.destroy(DOWN)
+  agent.setItem (WATER_BUCKET, 64, 1)
+agent.setSlot(1)
+agent.place(DOWN)
+agent.move(LEFT, 1)
+agent.destroy(DOWN)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 9; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+agent.move(FORWARD, 1)
+agent.destroy(DOWN)
+  agent.setItem (WATER_BUCKET, 64, 1)
+agent.setSlot(1)
+agent.place(DOWN)
+agent.move(LEFT, 1)
+agent.destroy(DOWN)
+agent.move(BACK, 1)
+
+for (let i= 0; i < 9; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for(let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 9; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(FORWARD, 1)
+agent.destroy(DOWN)
+  agent.setItem (WATER_BUCKET, 64, 1)
+agent.setSlot(1)
+agent.place(DOWN)
+agent.move(LEFT, 1)
+agent.destroy(DOWN)
+agent.move(BACK, 1)
+
+for (let i= 0; i < 9; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for(let i = 0; i < 9; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+agent.move(FORWARD, 1)
+agent.destroy(DOWN)
+  agent.setItem (WATER_BUCKET, 64, 1)
+agent.setSlot(1)
+agent.place(DOWN)
+agent.move(RIGHT, 1)
+agent.destroy(DOWN)
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 9; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(RIGHT, 1)
+agent.till(FORWARD)
+}
+
+agent.move(BACK, 1)
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(LEFT, 1)
+agent.till(FORWARD)
+}
+agent.move(BACK, 1)
+agent.turn(TurnDirection.Left)
+
+agent.till(FORWARD)
+for (let i = 0; i < 20; i++) {
+agent.move(BACK, 1)
+agent.till(FORWARD)
+}
+
+agent.turn(TurnDirection.Right)
+agent.turn(TurnDirection.Right)
+agent.move(BACK, 1)
+agent.till(FORWARD)
+
+})
